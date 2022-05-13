@@ -18,9 +18,9 @@ para revisar que todas las branche se hallan bajado
 `git branch`
 
 # Configurando el docker
+`docker push mongo`
 
-
-`docker run --name mongodb -p 37017:27017 mongo`
+`docker run --name mongodb -p 37017:27017 -d mongo`
 
 para ver que docker corren 
 
